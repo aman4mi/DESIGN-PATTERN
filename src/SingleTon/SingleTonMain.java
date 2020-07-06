@@ -17,5 +17,8 @@ public class SingleTonMain {
 
         SingleTon singleTon1 = SingleTon.getSingleTon();
         System.out.println(singleTon1);
+
+        SingleTon singleTon2 = SingleTon.getSingleTon();
+        System.out.println(singleTon2);
     }
 }
